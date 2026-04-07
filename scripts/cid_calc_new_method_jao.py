@@ -884,8 +884,8 @@ if __name__ == "__main__":
     entsoe_token = "788640ef-a0e0-4b55-b20f-aaf4b17ebe43"
     jao_token = "5080c637-d372-494e-87b4-8b706d132ecc"
 
-    start_date = datetime(2025, 8, 31, 22, 0)
-    end_date = datetime(2025, 10, 1, 22, 0)
+    start_date = datetime(2026, 1, 31, 22, 0)
+    end_date = datetime(2026, 3, 1, 22, 0)
 
     """
     Day ahead prices

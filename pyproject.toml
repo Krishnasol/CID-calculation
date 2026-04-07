@@ -18,6 +18,8 @@ priority = "supplemental"
 
 [tool.poetry.dependencies]
 python = ">=3.12,<3.13"
+databricks-sdk = ">=0.40.0,<1.0.0"
+databricks-sql-connector = ">=3.7.1,<4.0.0"
 requests = "^2.32.3"
 pandas = "^2.2.3"
 bs4 = "^0.0.2"
@@ -34,6 +36,13 @@ openpyxl = "^3.1.5"
 public-api-extractor = ">=0.1.19"
 
 python-dotenv = "^1.0.1"
+jao-py = "^0.5.6"
+tqdm = "^4.67.1"
+volue-insight-timeseries = "^2.0.0"
+sqlglot = "^28.0.0"
+
+[project.urls]
+repository = "https://gitlab.statnett.no/mesa/fbmc-dashboard.git"
 
 
 [tool.poetry.group.test.dependencies]
